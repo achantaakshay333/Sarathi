@@ -8,11 +8,11 @@ export function Button({
     ...props
 }) {
     const variants = {
-        primary: "btn-primary",
-        secondary: "btn-secondary",
-        accent: "btn-accent",
-        outline: "btn-outline",
-        ghost: "text-primary font-bold hover:bg-primary/5 rounded-xl transition-colors",
+      secondary: "btn-secondary",
+      accent: "btn-accent",
+      outline: "btn-outline",
+      ghost:"text-primary font-bold hover:bg-primary/5 rounded-xl transition-colors",
+      primary: "btn-primary",
     };
 
     const sizes = {
